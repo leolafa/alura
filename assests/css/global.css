@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color-primary: #8ab4f8;
+    --color-secondary: #e8eaed;
+    --color-terciary: #9aa0a6;
+    --color-text: #333333;
+    --font-family: 'Quicksand', sans-serif;
+    --bg-color: #202124;
+    
+}
+
+body{
+    margin: 0;
+    background: var(--bg-color);
+    color: var(--color-secondary);
+    font-family: var(--font-family);
+}
+header{
+    padding: 2rem 1rem; /* espaçamento interno */
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* distribui os intens com espaco ao redor*/
+    position: sticky; /* fixa o header no topo */
+    top: 0;
+    background: var(--bg-color);
+    z-index: 10; /* garante que o header fique acima de outros elementos */
+    border-bottom: 1px solid var(--bg-color);
+    gap: 1rem;
+}
+.header-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+header h1{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 500;
+    white-space: nowrap; /* impede que o texto quebre em várias linhas */
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--color-terciary);
+    background: var(--bg-color);
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    transition: all 0.2s ease;
+    width: 30rem;
+    color: var(--color-secondary);
+    margin-right: .5rem;
+
+}
+.input::placeholder{
+    color: var(--color-terciary);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.input:focus{
+    outline: none;
+    border-color: var(--bg-color);
+    box-shadow: 0 0 0 0.1rem var(--color-terciary);
+}
+
+#bota-busca{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    
+    color: var(--color-secondary);
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    background-color: var(--bg-color);
+    border: 1px solid var(--bg-color);
+}
+
+#bota-busca:hover{
+    background-color: var(--color-primary);
+    color: var(--bg-color);
+    border: 1px solid var(--color-primary);
+}
+
+#botao-busca:active{
+    transform: scale(0.98);
+}
+
+main{
+    overflow-y: scroll;
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: calc(100vh - 10rem - 4rem);
+}
+
+article{
+    background: none;
+    border-radius: 0;
+    padding: 0.1rem;
+    padding: 0;
+    margin-bottom: 1.25rem;
+    box-shadow: none;
+    transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
+    border-bottom: 1px solid var(--bg-color);
+    padding-bottom: 1.5rem;
+}
+
+article:hover{
+    cursor: pointer;
+
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.player-image{
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid var(--color-primary);
+    box-shadow: 0 2px 8px rgba(138, 180, 248, 0.3);
+}
+
+article h2{
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: var(--color-secondary);
+
+}
+
+article p strong{
+    color: var(--color-terciary);
+    font-weight: 400;
+}
+article a{
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 200;
+}
+
+article a:hover{
+    text-decoration: underline;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: var(--bg-color);
+    padding: 15px 20px;
+    border-top: 1px solid #3c4043;
+    font-size: 0.8rem;
+}
+.footer-links{
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-links a{
+    color: var(--color-secondary);
+    text-decoration: none;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer-links a svg{
+    vertical-align: middle;
+}
+.footer-links a:hover{
+    color: var(--color-primary);
+}
+
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    header h1{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    div input{
+        width: 90vw;
+        font-size: 1.2rem;
+    }
+    main{
+        padding: 0.1rem;
+    }
+    article:hover{
+        transform: none;
+    }
+}
+
+.card h2{
+    color: var(--color-primary);
+}
+.card a{
+    color: var(--color-terciary);
+}

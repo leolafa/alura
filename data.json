@@ -1,0 +1,182 @@
+[
+{
+    "Nome": "Python",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "Descrição": "Linguagem de alto nível, versátil e fácil de aprender. Amplamente usada em ciência de dados, IA, web e automação.",
+    "Ano": 1991,
+    "Paradigma": "Multi-paradigma: orientado a objetos, imperativo, funcional",
+    "UsoComunum": "Data Science, Machine Learning, Web Development, Automação, Scripts",
+    "NivelDificuldade": "Fácil"
+},
+{
+    "Nome": "JavaScript",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "Descrição": "Linguagem essencial para desenvolvimento web, executada no navegador e no servidor (Node.js).",
+    "Ano": 1995,
+    "Paradigma": "Multi-paradigma: orientado a objetos, funcional, baseado em eventos",
+    "UsoComunum": "Desenvolvimento Web Frontend, Backend (Node.js), Aplicativos Mobile (React Native)",
+    "NivelDificuldade": "Fácil"
+},
+{
+    "Nome": "Java",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    "Descrição": "Linguagem robusta e portável com filosofia 'escreva uma vez, execute em qualquer lugar'.",
+    "Ano": 1995,
+    "Paradigma": "Orientado a objetos",
+    "UsoComunum": "Aplicações Enterprise, Android, Sistemas Distribuídos, Big Data",
+    "NivelDificuldade": "Médio"
+},
+{
+    "Nome": "C++",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+    "Descrição": "Linguagem poderosa com controle de baixo nível, ideal para sistemas de alto desempenho.",
+    "Ano": 1985,
+    "Paradigma": "Multi-paradigma: procedural, orientado a objetos, genérico",
+    "UsoComunum": "Sistemas Operacionais, Games, Aplicações de Alto Desempenho, Drivers",
+    "NivelDificuldade": "Difícil"
+},
+{
+    "Nome": "C#",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+    "Descrição": "Linguagem moderna da Microsoft, poderosa para desenvolvimento de aplicações Windows e jogos.",
+    "Ano": 2000,
+    "Paradigma": "Multi-paradigma: orientado a objetos, funcional, imperativo",
+    "UsoComunum": "Aplicações Windows, Unity (Games), Web (ASP.NET), Desktop",
+    "NivelDificuldade": "Médio"
+},
+{
+    "Nome": "TypeScript",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "Descrição": "Superset do JavaScript com tipagem estática, aumentando a segurança e manutenibilidade do código.",
+    "Ano": 2012,
+    "Paradigma": "Multi-paradigma: orientado a objetos, funcional",
+    "UsoComunum": "Desenvolvimento Web Frontend e Backend, Aplicações em Grande Escala",
+    "NivelDificuldade": "Médio"
+},
+{
+    "Nome": "PHP",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    "Descrição": "Linguagem server-side amplamente usada para criar websites dinâmicos e sistemas web.",
+    "Ano": 1995,
+    "Paradigma": "Multi-paradigma: imperativo, orientado a objetos, funcional",
+    "UsoComunum": "Desenvolvimento Web Backend, WordPress, Sistemas de Gerenciamento de Conteúdo",
+    "NivelDificuldade": "Fácil"
+},
+{
+    "Nome": "Ruby",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg",
+    "Descrição": "Linguagem elegante e produtiva, focada na simplicidade e produtividade do desenvolvedor.",
+    "Ano": 1995,
+    "Paradigma": "Multi-paradigma: orientado a objetos, funcional, imperativo",
+    "UsoComunum": "Desenvolvimento Web (Ruby on Rails), Scripts, Automação",
+    "NivelDificuldade": "Fácil"
+},
+{
+    "Nome": "Go",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+    "Descrição": "Linguagem criada pelo Google, simples e eficiente para sistemas concorrentes e cloud.",
+    "Ano": 2009,
+    "Paradigma": "Concorrente, imperativo, orientado a objetos (sem classes)",
+    "UsoComunum": "Microserviços, Cloud Computing, APIs, Ferramentas de Sistema",
+    "NivelDificuldade": "Médio"
+},
+{
+    "Nome": "Rust",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg",
+    "Descrição": "Linguagem moderna focada em segurança de memória e desempenho sem garbage collector.",
+    "Ano": 2010,
+    "Paradigma": "Multi-paradigma: funcional, concorrente, imperativo",
+    "UsoComunum": "Sistemas de Baixo Nível, WebAssembly, Blockchain, Sistemas Críticos",
+    "NivelDificuldade": "Difícil"
+},
+{
+    "Nome": "Swift",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
+    "Descrição": "Linguagem poderosa e intuitiva da Apple para desenvolvimento iOS, macOS e outros sistemas Apple.",
+    "Ano": 2014,
+    "Paradigma": "Multi-paradigma: orientado a objetos, funcional, imperativo",
+    "UsoComunum": "Desenvolvimento iOS, macOS, watchOS, tvOS",
+    "NivelDificuldade": "Médio"
+},
+{
+    "Nome": "Kotlin",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+    "Descrição": "Linguagem moderna e concisa, oficial para Android, totalmente interoperável com Java.",
+    "Ano": 2011,
+    "Paradigma": "Multi-paradigma: orientado a objetos, funcional",
+    "UsoComunum": "Desenvolvimento Android, Backend (Spring), Aplicações Multiplataforma",
+    "NivelDificuldade": "Fácil"
+},
+{
+    "Nome": "R",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg",
+    "Descrição": "Linguagem especializada em estatística e análise de dados, com rico ecossistema de pacotes.",
+    "Ano": 1993,
+    "Paradigma": "Multi-paradigma: orientado a objetos, funcional, imperativo",
+    "UsoComunum": "Análise Estatística, Data Science, Visualização de Dados, Pesquisa Acadêmica",
+    "NivelDificuldade": "Médio"
+},
+{
+    "Nome": "SQL",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+    "Descrição": "Linguagem declarativa padrão para gerenciamento e consulta de bancos de dados relacionais.",
+    "Ano": 1974,
+    "Paradigma": "Declarativo",
+    "UsoComunum": "Gerenciamento de Bancos de Dados, Consultas, Análise de Dados",
+    "NivelDificuldade": "Fácil"
+},
+{
+    "Nome": "Dart",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
+    "Descrição": "Linguagem otimizada para interfaces de usuário, base do framework Flutter.",
+    "Ano": 2011,
+    "Paradigma": "Multi-paradigma: orientado a objetos, funcional",
+    "UsoComunum": "Flutter (Mobile, Web, Desktop), Desenvolvimento Multiplataforma",
+    "NivelDificuldade": "Fácil"
+},
+{
+    "Nome": "Scala",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg",
+    "Descrição": "Linguagem que combina programação orientada a objetos e funcional, executada na JVM.",
+    "Ano": 2004,
+    "Paradigma": "Multi-paradigma: orientado a objetos, funcional",
+    "UsoComunum": "Big Data (Apache Spark), Backend, Aplicações Distribuídas",
+    "NivelDificuldade": "Difícil"
+},
+{
+    "Nome": "Perl",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/perl/perl-original.svg",
+    "Descrição": "Linguagem poderosa para processamento de texto e administração de sistemas.",
+    "Ano": 1987,
+    "Paradigma": "Multi-paradigma: procedural, orientado a objetos, funcional",
+    "UsoComunum": "Administração de Sistemas, Processamento de Texto, Web CGI, Bioinformática",
+    "NivelDificuldade": "Médio"
+},
+{
+    "Nome": "Haskell",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/haskell/haskell-original.svg",
+    "Descrição": "Linguagem funcional pura com sistema de tipos avançado e avaliação preguiçosa.",
+    "Ano": 1990,
+    "Paradigma": "Funcional",
+    "UsoComunum": "Pesquisa Acadêmica, Sistemas Críticos, Compiladores, Análise de Dados",
+    "NivelDificuldade": "Difícil"
+},
+{
+    "Nome": "Lua",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg",
+    "Descrição": "Linguagem leve e embarcável, popular como linguagem de script em jogos e aplicações.",
+    "Ano": 1993,
+    "Paradigma": "Multi-paradigma: procedural, orientado a objetos, funcional",
+    "UsoComunum": "Game Development (scripting), Aplicações Embarcadas, Configuração",
+    "NivelDificuldade": "Fácil"
+},
+{
+    "Nome": "Elixir",
+    "Imagem": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg",
+    "Descrição": "Linguagem funcional construída sobre Erlang VM, ideal para aplicações distribuídas e escaláveis.",
+    "Ano": 2011,
+    "Paradigma": "Funcional, concorrente",
+    "UsoComunum": "Aplicações Web Escaláveis (Phoenix), Sistemas Distribuídos, Real-time",
+    "NivelDificuldade": "Médio"
+}
+]
